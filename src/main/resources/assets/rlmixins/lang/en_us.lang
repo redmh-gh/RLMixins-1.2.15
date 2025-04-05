@@ -1,0 +1,22 @@
+effects.rlmixins.encumbered=Encumbered
+effects.rlmixins.lesser_fire_resistance=Flame Hardened
+effects.rlmixins.cow=Moo
+effects.rlmixins.curse_break=Curse Break
+potion.effect.curse_break=Potion of Curse Break
+splash_potion.effect.curse_break=Splash Potion of Curse Break
+lingering_potion.effect.curse_break=Lingering Potion of Curse Break
+tipped_arrow.effect.curse_break=Tipped Arrow Potion of Curse Break
+
+item.steel_helmet.name=Steel Helmet
+item.steel_chestplate.name=Steel Chestplate
+item.steel_leggings.name=Steel Leggings
+item.steel_boots.name=Steel Boots
+item.scarlite_helmet.name=Scarlite Helmet
+item.scarlite_chestplate.name=Scarlite Chestplate
+item.scarlite_leggings.name=Scarlite Leggings
+item.scarlite_boots.name=Scarlite Boots
+
+item.cleansing_talisman.name=Cleansing Talisman
+
+selectWorld.dregoraCreate=Create Dregora World
+selectWorld.vanillaCreate=Create Vanilla World
