@@ -569,6 +569,11 @@ public class ForgeConfigHandler {
 		@Config.Name("OTG Create World Simplify Fix (OTG)")
 		@Config.RequiresMcRestart
 		public boolean otgCreateWorldFix = false;
+
+ 		@Config.Comment("Allows for modifying the max amount of levels that bookwyrms can digest")
+ 		@Config.Name("Modify BookWyrm Max Level (DefiledLands)")
+ 		@Config.RequiresMcRestart
+ 		public boolean bookWyrmMaxLevelModify = false;
 	}
 
 	public static class ServerConfig {
@@ -752,6 +757,10 @@ public class ForgeConfigHandler {
 		@Config.Comment("Whether or not Atomic Deconstructor should work on bosses (May cause bugs)")
 		@Config.Name("Atomic Deconstructor Works on Bosses")
 		public boolean atomicDeconstructorBosses = false;
+		
+		@Config.Comment("Maximum amount of enchantment levels that bookwyrms can digest")
+		@Config.Name("BookWyrm Maximum Level")
+		public int bookWyrmMaxLevel = 30;
 	}
 
 	public static class ClientConfig {

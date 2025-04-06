@@ -45,6 +45,8 @@ public class RLMixinsPlugin implements IFMLLoadingPlugin {
 
 		map.put("Enable Dragon Dismount Fix (Vanilla/IceAndFire)", "mixins.rlmixins.core.infdismount.json");
 
+		map.put("Modify BookWyrm Max Level (DefiledLands)", "mixins.rlmixins.bookwyrmlevel.json");
+
 		return Collections.unmodifiableMap(map);
 	}
 
