@@ -49,7 +49,7 @@ jobs:
 
       # 将生成的 .jar 文件存储为构建工件
       - name: Upload Build Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: build-jar
           path: build/libs/*.jar # 上传所有 jar 文件
