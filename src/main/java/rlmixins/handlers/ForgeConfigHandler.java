@@ -573,7 +573,7 @@ public class ForgeConfigHandler {
  		@Config.Comment("Allows for modifying the max amount of levels that bookwyrms can digest")
  		@Config.Name("Modify BookWyrm Max Level (DefiledLands)")
  		@Config.RequiresMcRestart
- 		public boolean bookWyrmMaxLevelModify = false;
+ 		public boolean bookWyrmMaxLevelModify = true;
 	}
 
 	public static class ServerConfig {
@@ -760,7 +760,7 @@ public class ForgeConfigHandler {
 		
 		@Config.Comment("Maximum amount of enchantment levels that bookwyrms can digest")
 		@Config.Name("BookWyrm Maximum Level")
-		public int bookWyrmMaxLevel = 30;
+		public int bookWyrmMaxLevel = 60;
 	}
 
 	public static class ClientConfig {
