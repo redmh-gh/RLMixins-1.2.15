@@ -116,6 +116,7 @@ public class RLMixinsMixinLoader {
         map.put("CorpseComplex XP Death Fix (CorpseComplex)", "mixins.rlmixins.corpsecomplexreturn.json");
         map.put("Magnetic Dupe Patch (Charm)", "mixins.rlmixins.magneticdupe.json");
         map.put("Penetration Fix (BetterSurvival/SpartanWeaponry/RLCombat)", "mixins.rlmixins.bspenetration.json");
+        map.put("Modify BookWyrm Max Level (DefiledLands)", "mixins.rlmixins.bookwyrmlevel.json");
 
         map.put("Flowering Oak DT Fix (DynamicTrees/BOP/DTBOP)", "mixins.rlmixins.floweringoakleaves.json");
         map.put("OTG Create World Simplify Fix (OTG)", "mixins.rlmixins.otgguibutton.json");
